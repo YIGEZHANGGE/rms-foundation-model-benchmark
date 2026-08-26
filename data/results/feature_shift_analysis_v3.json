@@ -1,0 +1,74 @@
+{
+ "conch": {
+  "cog_n": 390,
+  "bch_n": 218,
+  "dim": 768,
+  "linear_probe_cv_acc_cog": 0.8358974358974358,
+  "linear_probe_bch_acc": 0.7568807339449541,
+  "linear_probe_bch_macro_f1": 0.4954131776814045,
+  "knn5_bch_acc": 0.7385321100917431,
+  "rbf_mmd": 0.5773409977999945,
+  "gamma": 0.000681359823198927,
+  "pca10_centroid_distance": 15.424116017260825,
+  "per_dim_mean_abs_shift": 0.7896681410563078
+ },
+ "phikon": {
+  "cog_n": 390,
+  "bch_n": 218,
+  "dim": 1024,
+  "linear_probe_cv_acc_cog": 0.8384615384615385,
+  "linear_probe_bch_acc": 0.555045871559633,
+  "linear_probe_bch_macro_f1": 0.37964890522803446,
+  "knn5_bch_acc": 0.6880733944954128,
+  "rbf_mmd": 0.6376915158885483,
+  "gamma": 0.0005017973013560401,
+  "pca10_centroid_distance": 20.24574992383082,
+  "per_dim_mean_abs_shift": 0.8717933424113128
+ },
+ "hoptimus0": {
+  "cog_n": 390,
+  "bch_n": 218,
+  "dim": 1536,
+  "linear_probe_cv_acc_cog": 0.8564102564102564,
+  "linear_probe_bch_acc": 0.7935779816513762,
+  "linear_probe_bch_macro_f1": 0.5252535496957403,
+  "knn5_bch_acc": 0.7018348623853211,
+  "rbf_mmd": 0.5914902030629817,
+  "gamma": 0.000328328711875378,
+  "pca10_centroid_distance": 23.755678687393203,
+  "per_dim_mean_abs_shift": 0.8434039561767953
+ },
+ "gigapath": {
+  "cog_n": 390,
+  "bch_n": 218,
+  "dim": 1536,
+  "linear_probe_cv_acc_cog": 0.8538461538461538,
+  "linear_probe_bch_acc": 0.7614678899082569,
+  "linear_probe_bch_macro_f1": 0.553453249515481,
+  "knn5_bch_acc": 0.6972477064220184,
+  "rbf_mmd": 0.5773728641520876,
+  "gamma": 0.00033548599840673056,
+  "pca10_centroid_distance": 23.77528964994746,
+  "per_dim_mean_abs_shift": 0.7887328188843384
+ },
+ "virchow2": {
+  "cog_n": 390,
+  "bch_n": 218,
+  "dim": 2560,
+  "linear_probe_cv_acc_cog": 0.8512820512820513,
+  "linear_probe_bch_acc": 0.7110091743119266,
+  "linear_probe_bch_macro_f1": 0.5294249278658832,
+  "knn5_bch_acc": 0.6972477064220184,
+  "rbf_mmd": 0.5257445584607559,
+  "gamma": 0.00020714364026155497,
+  "pca10_centroid_distance": 22.249732432787365,
+  "per_dim_mean_abs_shift": 0.6535769849400592
+ },
+ "meta": {
+  "analysis": "M2 feature-level domain-shift check (COG train -> BCH test)",
+  "method": "slide-level mean-pooled features; per-dim z-score fit on COG; linear probe = multinomial logistic regression (L2, C=1); kNN = 5-NN euclidean on z-scored features; RBF-MMD with median heuristic gamma; PCA-10 centroid distance in COG-fitted space",
+  "labels": "COG three-class labels from cohort_and_folds_public.json; BCH labels from bch_predictions_v3_conch.csv",
+  "generated_at": "2026-08-15 15:08:24",
+  "elapsed_seconds": 590.5
+ }
+}

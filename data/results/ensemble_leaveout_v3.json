@@ -1,0 +1,17 @@
+{
+ "external_5_encoder": {
+  "n": 218,
+  "acc3": 0.8027522935779816,
+  "f1m3": 0.520890203215044,
+  "acc2": 0.8440366972477065,
+  "f1m2": 0.7957451499118166
+ },
+ "external_4_encoder_without_virchow2": {
+  "n": 218,
+  "acc3": 0.8302752293577982,
+  "f1m3": 0.5506902502157032,
+  "acc2": 0.8715596330275229,
+  "f1m2": 0.8406599143781978
+ },
+ "note": "Computed from pooled per-patient class probabilities in bch_predictions_v3_*.csv (deduplicated n=218)."
+}

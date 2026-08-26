@@ -1,0 +1,128 @@
+{
+ "conch": {
+  "model": "CONCH",
+  "three_class": {
+   "accuracy": 0.8028,
+   "balanced_accuracy": 0.513,
+   "cohens_kappa": 0.5198,
+   "cog_prevalence_standardized_accuracy": 0.827,
+   "per_class_recall": {
+    "ERMS": 0.9517,
+    "ARMS": 0.5873,
+    "Spindle": 0.0
+   }
+  },
+  "two_class": {
+   "accuracy": 0.8486,
+   "balanced_accuracy": 0.7711,
+   "cohens_kappa": 0.5954,
+   "cog_prevalence_standardized_accuracy": 0.8832,
+   "sensitivity": 0.5873,
+   "specificity": 0.9548
+  }
+ },
+ "phikon": {
+  "model": "Phikon-v2",
+  "three_class": {
+   "accuracy": 0.789,
+   "balanced_accuracy": 0.545,
+   "cohens_kappa": 0.5449,
+   "cog_prevalence_standardized_accuracy": 0.7846,
+   "per_class_recall": {
+    "ERMS": 0.8414,
+    "ARMS": 0.7937,
+    "Spindle": 0.0
+   }
+  },
+  "two_class": {
+   "accuracy": 0.8349,
+   "balanced_accuracy": 0.8226,
+   "cohens_kappa": 0.6162,
+   "cog_prevalence_standardized_accuracy": 0.8403,
+   "sensitivity": 0.7937,
+   "specificity": 0.8516
+  }
+ },
+ "hoptimus0": {
+  "model": "H-optimus-0",
+  "three_class": {
+   "accuracy": 0.8211,
+   "balanced_accuracy": 0.5551,
+   "cohens_kappa": 0.5967,
+   "cog_prevalence_standardized_accuracy": 0.8249,
+   "per_class_recall": {
+    "ERMS": 0.9034,
+    "ARMS": 0.7619,
+    "Spindle": 0.0
+   }
+  },
+  "two_class": {
+   "accuracy": 0.8624,
+   "balanced_accuracy": 0.8326,
+   "cohens_kappa": 0.6651,
+   "cog_prevalence_standardized_accuracy": 0.8757,
+   "sensitivity": 0.7619,
+   "specificity": 0.9032
+  }
+ },
+ "gigapath": {
+  "model": "Prov-GigaPath",
+  "three_class": {
+   "accuracy": 0.7706,
+   "balanced_accuracy": 0.5519,
+   "cohens_kappa": 0.5052,
+   "cog_prevalence_standardized_accuracy": 0.7748,
+   "per_class_recall": {
+    "ERMS": 0.8414,
+    "ARMS": 0.7143,
+    "Spindle": 0.1
+   }
+  },
+  "two_class": {
+   "accuracy": 0.8119,
+   "balanced_accuracy": 0.7829,
+   "cohens_kappa": 0.5529,
+   "cog_prevalence_standardized_accuracy": 0.8249,
+   "sensitivity": 0.7143,
+   "specificity": 0.8516
+  }
+ },
+ "virchow2": {
+  "model": "Virchow2",
+  "three_class": {
+   "accuracy": 0.6881,
+   "balanced_accuracy": 0.3718,
+   "cohens_kappa": 0.127,
+   "cog_prevalence_standardized_accuracy": 0.7559,
+   "per_class_recall": {
+    "ERMS": 0.9724,
+    "ARMS": 0.1429,
+    "Spindle": 0.0
+   }
+  },
+  "two_class": {
+   "accuracy": 0.7339,
+   "balanced_accuracy": 0.5585,
+   "cohens_kappa": 0.1531,
+   "cog_prevalence_standardized_accuracy": 0.8122,
+   "sensitivity": 0.1429,
+   "specificity": 0.9742
+  }
+ },
+ "meta": {
+  "n_bch": 218,
+  "bch_class_prevalence": {
+   "ERMS": 0.6651376146788991,
+   "ARMS": 0.2889908256880734,
+   "Spindle": 0.045871559633027525
+  },
+  "cog_class_prevalence": {
+   "ERMS": 0.7487179487179487,
+   "ARMS": 0.19487179487179487,
+   "Spindle": 0.05641025641025641
+  },
+  "no_information_rate_3class": 0.6651,
+  "no_information_rate_2class": 0.711,
+  "note": "Case-mix-standardized accuracy reweights the BCH confusion matrix to the COG class prevalence (three-class) or COG ARMS prevalence (two-class) to separate prevalence-driven accuracy from genuine domain shift."
+ }
+}

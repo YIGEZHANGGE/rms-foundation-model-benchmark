@@ -1,0 +1,89 @@
+{
+ "n_encoders": 5,
+ "k": 10,
+ "note": "v3.12 corrected: classic Stuart-Maxwell with generalized inverse; values match Table S4.",
+ "mcnemar_3class_stuart_maxwell": {
+  "conch_vs_phikon": {
+   "raw_p": 0.38206590382183,
+   "adjusted_p": 1.0
+  },
+  "conch_vs_hoptimus0": {
+   "raw_p": 0.858736137709034,
+   "adjusted_p": 1.0
+  },
+  "conch_vs_gigapath": {
+   "raw_p": 0.78983537925064,
+   "adjusted_p": 1.0
+  },
+  "conch_vs_virchow2": {
+   "raw_p": 0.464559020360911,
+   "adjusted_p": 1.0
+  },
+  "phikon_vs_hoptimus0": {
+   "raw_p": 0.482633646338742,
+   "adjusted_p": 1.0
+  },
+  "phikon_vs_gigapath": {
+   "raw_p": 0.790763695303991,
+   "adjusted_p": 1.0
+  },
+  "phikon_vs_virchow2": {
+   "raw_p": 0.048846238649019,
+   "adjusted_p": 0.488462386490189
+  },
+  "hoptimus0_vs_gigapath": {
+   "raw_p": 0.685957138836966,
+   "adjusted_p": 1.0
+  },
+  "hoptimus0_vs_virchow2": {
+   "raw_p": 0.333292706293675,
+   "adjusted_p": 1.0
+  },
+  "gigapath_vs_virchow2": {
+   "raw_p": 0.13992248802431,
+   "adjusted_p": 1.0
+  }
+ },
+ "mcnemar_2class": {
+  "conch_vs_phikon": {
+   "raw_p": 0.323939845598531,
+   "adjusted_p": 1.0
+  },
+  "conch_vs_hoptimus0": {
+   "raw_p": 1.0,
+   "adjusted_p": 1.0
+  },
+  "conch_vs_gigapath": {
+   "raw_p": 0.643428843563621,
+   "adjusted_p": 1.0
+  },
+  "conch_vs_virchow2": {
+   "raw_p": 0.361310428526179,
+   "adjusted_p": 1.0
+  },
+  "phikon_vs_hoptimus0": {
+   "raw_p": 0.302028228109774,
+   "adjusted_p": 1.0
+  },
+  "phikon_vs_gigapath": {
+   "raw_p": 0.754776426587105,
+   "adjusted_p": 1.0
+  },
+  "phikon_vs_virchow2": {
+   "raw_p": 0.048519738280251,
+   "adjusted_p": 0.485197382802508
+  },
+  "hoptimus0_vs_gigapath": {
+   "raw_p": 0.498962298603761,
+   "adjusted_p": 1.0
+  },
+  "hoptimus0_vs_virchow2": {
+   "raw_p": 0.486234321388297,
+   "adjusted_p": 1.0
+  },
+  "gigapath_vs_virchow2": {
+   "raw_p": 0.100348246462291,
+   "adjusted_p": 1.0
+  }
+ }
+}

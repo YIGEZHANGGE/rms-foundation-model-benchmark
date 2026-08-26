@@ -1,0 +1,267 @@
+{
+ "conch": {
+  "encoder": "conch",
+  "n_patients": 218,
+  "acc": 0.8027522935779816,
+  "acc_ci": [
+   0.7521788990825689,
+   0.8533256880733944
+  ],
+  "f1m": 0.5189308489340716,
+  "f1m_ci": [
+   0.4727429557216791,
+   0.5590593689460522
+  ],
+  "per_class": {
+   "ERMS": {
+    "n": 145,
+    "f1": 0.8652037617554859
+   },
+   "ARMS": {
+    "n": 63,
+    "f1": 0.6915887850467289
+   },
+   "Spindle": {
+    "n": 10,
+    "f1": 0.0
+   }
+  },
+  "cm": [
+   [
+    138,
+    7,
+    0
+   ],
+   [
+    26,
+    37,
+    0
+   ],
+   [
+    10,
+    0,
+    0
+   ]
+  ],
+  "repeat_acc": [
+   0.8027522935779816,
+   0.8027522935779816,
+   0.8027522935779816,
+   0.8027522935779816,
+   0.8027522935779816
+  ],
+  "dedup_note": "Recomputed on 218 unique patients (one duplicated record removed). repeat_acc set to point estimate; per-repeat values are not recoverable from saved CSVs."
+ },
+ "gigapath": {
+  "encoder": "gigapath",
+  "n_patients": 218,
+  "acc": 0.7706422018348624,
+  "acc_ci": [
+   0.7110091743119266,
+   0.8256880733944955
+  ],
+  "f1m": 0.5561226720430309,
+  "f1m_ci": [
+   0.47686784996720993,
+   0.6585259803837377
+  ],
+  "per_class": {
+   "ERMS": {
+    "n": 145,
+    "f1": 0.8384879725085911
+   },
+   "ARMS": {
+    "n": 63,
+    "f1": 0.6870229007633588
+   },
+   "Spindle": {
+    "n": 10,
+    "f1": 0.14285714285714285
+   }
+  },
+  "cm": [
+   [
+    122,
+    20,
+    3
+   ],
+   [
+    18,
+    45,
+    0
+   ],
+   [
+    6,
+    3,
+    1
+   ]
+  ],
+  "repeat_acc": [
+   0.7706422018348624,
+   0.7706422018348624,
+   0.7706422018348624,
+   0.7706422018348624,
+   0.7706422018348624
+  ],
+  "dedup_note": "Recomputed on 218 unique patients (one duplicated record removed). repeat_acc set to point estimate; per-repeat values are not recoverable from saved CSVs."
+ },
+ "hoptimus0": {
+  "encoder": "hoptimus0",
+  "n_patients": 218,
+  "acc": 0.8211009174311926,
+  "acc_ci": [
+   0.7706422018348624,
+   0.8669724770642202
+  ],
+  "f1m": 0.545079365079365,
+  "f1m_ci": [
+   0.5066614937390577,
+   0.5801376557832939
+  ],
+  "per_class": {
+   "ERMS": {
+    "n": 145,
+    "f1": 0.8733333333333333
+   },
+   "ARMS": {
+    "n": 63,
+    "f1": 0.7619047619047619
+   },
+   "Spindle": {
+    "n": 10,
+    "f1": 0.0
+   }
+  },
+  "cm": [
+   [
+    131,
+    14,
+    0
+   ],
+   [
+    15,
+    48,
+    0
+   ],
+   [
+    9,
+    1,
+    0
+   ]
+  ],
+  "repeat_acc": [
+   0.8211009174311926,
+   0.8211009174311926,
+   0.8211009174311926,
+   0.8211009174311926,
+   0.8211009174311926
+  ],
+  "dedup_note": "Recomputed on 218 unique patients (one duplicated record removed). repeat_acc set to point estimate; per-repeat values are not recoverable from saved CSVs."
+ },
+ "phikon": {
+  "encoder": "phikon",
+  "n_patients": 218,
+  "acc": 0.7889908256880734,
+  "acc_ci": [
+   0.7339449541284404,
+   0.8394495412844036
+  ],
+  "f1m": 0.5265282583621684,
+  "f1m_ci": [
+   0.4853122595125159,
+   0.5639703348113302
+  ],
+  "per_class": {
+   "ERMS": {
+    "n": 145,
+    "f1": 0.8442906574394463
+   },
+   "ARMS": {
+    "n": 63,
+    "f1": 0.7352941176470589
+   },
+   "Spindle": {
+    "n": 10,
+    "f1": 0.0
+   }
+  },
+  "cm": [
+   [
+    122,
+    22,
+    1
+   ],
+   [
+    13,
+    50,
+    0
+   ],
+   [
+    9,
+    1,
+    0
+   ]
+  ],
+  "repeat_acc": [
+   0.7889908256880734,
+   0.7889908256880734,
+   0.7889908256880734,
+   0.7889908256880734,
+   0.7889908256880734
+  ],
+  "dedup_note": "Recomputed on 218 unique patients (one duplicated record removed). repeat_acc set to point estimate; per-repeat values are not recoverable from saved CSVs."
+ },
+ "virchow2": {
+  "encoder": "virchow2",
+  "n_patients": 218,
+  "acc": 0.6880733944954128,
+  "acc_ci": [
+   0.6284403669724771,
+   0.7477064220183486
+  ],
+  "f1m": 0.34751879699248117,
+  "f1m_ci": [
+   0.30148058047905585,
+   0.3946201498396061
+  ],
+  "per_class": {
+   "ERMS": {
+    "n": 145,
+    "f1": 0.8057142857142857
+   },
+   "ARMS": {
+    "n": 63,
+    "f1": 0.23684210526315788
+   },
+   "Spindle": {
+    "n": 10,
+    "f1": 0.0
+   }
+  },
+  "cm": [
+   [
+    141,
+    4,
+    0
+   ],
+   [
+    54,
+    9,
+    0
+   ],
+   [
+    10,
+    0,
+    0
+   ]
+  ],
+  "repeat_acc": [
+   0.6880733944954128,
+   0.6880733944954128,
+   0.6880733944954128,
+   0.6880733944954128,
+   0.6880733944954128
+  ],
+  "dedup_note": "Recomputed on 218 unique patients (one duplicated record removed). repeat_acc set to point estimate; per-repeat values are not recoverable from saved CSVs."
+ }
+}

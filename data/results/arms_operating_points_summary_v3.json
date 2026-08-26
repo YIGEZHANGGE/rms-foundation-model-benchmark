@@ -1,0 +1,76 @@
+{
+ "meta": {
+  "definition": "Operating points for the two-class ARMS-versus-non-ARMS task on BCH (n=218). 'at_95pct_sens' is the highest probability threshold at which sensitivity >= 0.95 (likewise 0.90), i.e., the operating point that maximizes specificity while retaining at least the target sensitivity.",
+  "n_bch": 218,
+  "n_arms": 63,
+  "n_non_arms": 155,
+  "note": "max_sensitivity values are computed on a fine threshold grid and may differ slightly from the 0.01-step grid in arms_operating_points_v3.csv; the discrepancy is a sampling-resolution effect and does not change the reaches_90pct/reaches_95pct conclusions."
+ },
+ "models": {
+  "conch": {
+   "model": "CONCH",
+   "max_sensitivity": 0.8571,
+   "specificity_at_max_sensitivity": 0.7806,
+   "reaches_90pct": false,
+   "reaches_95pct": false
+  },
+  "phikon": {
+   "model": "Phikon-v2",
+   "max_sensitivity": 0.9524,
+   "specificity_at_max_sensitivity": 0.3484,
+   "reaches_90pct": true,
+   "reaches_95pct": true,
+   "at_90pct_sens": {
+    "threshold": 0.22,
+    "sensitivity": 0.9048,
+    "specificity": 0.7548
+   },
+   "at_95pct_sens": {
+    "threshold": 0.01,
+    "sensitivity": 0.9524,
+    "specificity": 0.4903
+   }
+  },
+  "hoptimus0": {
+   "model": "H-optimus-0",
+   "max_sensitivity": 0.9683,
+   "specificity_at_max_sensitivity": 0.6065,
+   "reaches_90pct": true,
+   "reaches_95pct": true,
+   "at_90pct_sens": {
+    "threshold": 0.2,
+    "sensitivity": 0.9206,
+    "specificity": 0.8194
+   },
+   "at_95pct_sens": {
+    "threshold": 0.05,
+    "sensitivity": 0.9524,
+    "specificity": 0.7097
+   }
+  },
+  "gigapath": {
+   "model": "Prov-GigaPath",
+   "max_sensitivity": 0.9683,
+   "specificity_at_max_sensitivity": 0.1355,
+   "reaches_90pct": true,
+   "reaches_95pct": true,
+   "at_90pct_sens": {
+    "threshold": 0.2,
+    "sensitivity": 0.9048,
+    "specificity": 0.5613
+   },
+   "at_95pct_sens": {
+    "threshold": 0.18,
+    "sensitivity": 0.9524,
+    "specificity": 0.4581
+   }
+  },
+  "virchow2": {
+   "model": "Virchow2",
+   "max_sensitivity": 0.6825,
+   "specificity_at_max_sensitivity": 0.8258,
+   "reaches_90pct": false,
+   "reaches_95pct": false
+  }
+ }
+}

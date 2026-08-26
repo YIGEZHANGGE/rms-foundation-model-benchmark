@@ -1,0 +1,13 @@
+torch>=2.2
+timm>=0.9.11
+torchvision
+numpy
+pandas
+h5py
+scipy
+scikit-learn>=1.2
+lifelines>=0.29
+matplotlib>=3.7
+pillow
+openpyxl
+huggingface_hub

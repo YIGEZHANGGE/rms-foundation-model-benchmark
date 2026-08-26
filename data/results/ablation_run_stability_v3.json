@@ -1,0 +1,119 @@
+{
+ "models": {
+  "conch": {
+   "AttentionMIL": {
+    "run1_acc_mean": 0.846153846153846,
+    "run1_acc_std": 0.03243361702736802,
+    "run2_acc_mean": 0.8564102564102564,
+    "run2_acc_std": 0.022057244274468278,
+    "mean_diff_run2_minus_run1": 0.0103,
+    "max_fold_abs_diff": 0.0385,
+    "run1_f1m_mean": 0.648404570146609,
+    "run2_f1m_mean": 0.6123084066223472
+   },
+   "MultiClusterAttention": {
+    "run1_acc_mean": 0.8794871794871796,
+    "run1_acc_std": 0.017390589700321236,
+    "run2_acc_mean": 0.8692307692307691,
+    "run2_acc_std": 0.020512820512820492,
+    "mean_diff_run2_minus_run1": -0.0103,
+    "max_fold_abs_diff": 0.0256,
+    "run1_f1m_mean": 0.6571690830753982,
+    "run2_f1m_mean": 0.6679493417476356
+   },
+   "TransformerInstanceAttention": {
+    "run1_acc_mean": 0.764102564102564,
+    "run1_acc_std": 0.01739058970032119,
+    "run2_acc_mean": 0.7897435897435897,
+    "run2_acc_std": 0.03854691379069973,
+    "mean_diff_run2_minus_run1": 0.0256,
+    "max_fold_abs_diff": 0.0769,
+    "run1_f1m_mean": 0.3521257714171927,
+    "run2_f1m_mean": 0.42903834924846684
+   },
+   "TransformerPooling": {
+    "run1_acc_mean": 0.7487179487179487,
+    "run1_acc_std": 0.006280742930213255,
+    "run2_acc_mean": 0.7820512820512822,
+    "run2_acc_std": 0.042132504423474326,
+    "mean_diff_run2_minus_run1": 0.0333,
+    "max_fold_abs_diff": 0.0897,
+    "run1_f1m_mean": 0.2854300844425361,
+    "run2_f1m_mean": 0.3877263091049631
+   },
+   "_rank_run1": [
+    "MultiClusterAttention",
+    "AttentionMIL",
+    "TransformerInstanceAttention",
+    "TransformerPooling"
+   ],
+   "_rank_run2": [
+    "MultiClusterAttention",
+    "AttentionMIL",
+    "TransformerInstanceAttention",
+    "TransformerPooling"
+   ],
+   "_rank_consistent": true
+  },
+  "hoptimus0": {
+   "AttentionMIL": {
+    "run1_acc_mean": 0.8538461538461538,
+    "run1_acc_std": 0.02990231740946305,
+    "run2_acc_mean": 0.8794871794871796,
+    "run2_acc_std": 0.017390589700321236,
+    "mean_diff_run2_minus_run1": 0.0256,
+    "max_fold_abs_diff": 0.0769,
+    "run1_f1m_mean": 0.6445063486061703,
+    "run2_f1m_mean": 0.6369418537917918
+   },
+   "MultiClusterAttention": {
+    "run1_acc_mean": 0.8717948717948719,
+    "run1_acc_std": 0.03534371474894928,
+    "run2_acc_mean": 0.864102564102564,
+    "run2_acc_std": 0.033036150581346485,
+    "mean_diff_run2_minus_run1": -0.0077,
+    "max_fold_abs_diff": 0.0128,
+    "run1_f1m_mean": 0.685561019418069,
+    "run2_f1m_mean": 0.6944044475526949
+   },
+   "TransformerInstanceAttention": {
+    "run1_acc_mean": 0.7743589743589745,
+    "run1_acc_std": 0.047695064712149425,
+    "run2_acc_mean": 0.782051282051282,
+    "run2_acc_std": 0.02923526731023432,
+    "mean_diff_run2_minus_run1": 0.0077,
+    "max_fold_abs_diff": 0.1026,
+    "run1_f1m_mean": 0.43849268944528086,
+    "run2_f1m_mean": 0.3964841270278407
+   },
+   "TransformerPooling": {
+    "run1_acc_mean": 0.7487179487179487,
+    "run1_acc_std": 0.006280742930213255,
+    "run2_acc_mean": 0.7564102564102564,
+    "run2_acc_std": 0.019861453057473905,
+    "mean_diff_run2_minus_run1": 0.0077,
+    "max_fold_abs_diff": 0.0385,
+    "run1_f1m_mean": 0.2854300844425361,
+    "run2_f1m_mean": 0.30893784975224065
+   },
+   "_rank_run1": [
+    "MultiClusterAttention",
+    "AttentionMIL",
+    "TransformerInstanceAttention",
+    "TransformerPooling"
+   ],
+   "_rank_run2": [
+    "AttentionMIL",
+    "MultiClusterAttention",
+    "TransformerInstanceAttention",
+    "TransformerPooling"
+   ],
+   "_rank_consistent": false
+  }
+ },
+ "meta": {
+  "run1_seed": 42,
+  "run2_seed": 2026,
+  "note": "Same frozen n=390 cohort, same five stratified folds, same training schedule; only the training seed differs. Run-to-run fold-level mean differences and the architectural ranking are reported."
+ }
+}

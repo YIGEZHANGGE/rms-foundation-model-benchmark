@@ -1,0 +1,137 @@
+{
+ "meta": "BCH n=218 unique patients; classic Stuart-Maxwell (3-class, Moore-Penrose generalized inverse, df=rank for singular covariance) and McNemar with continuity correction (2-class); Bonferroni k=10. v3.12 corrected values.",
+ "3class": {
+  "conch_vs_phikon": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 1.773732912e-06,
+   "bonferroni_p": 1.7737329119e-05,
+   "stat": 26.484848484848566,
+   "df": 2
+  },
+  "conch_vs_hoptimus0": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 7.4394984048e-05,
+   "bonferroni_p": 0.000743949840484,
+   "stat": 15.695652173913038,
+   "df": 1
+  },
+  "conch_vs_gigapath": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 1.670170079e-05,
+   "bonferroni_p": 0.000167017007902,
+   "stat": 22.000000000000046,
+   "df": 2
+  },
+  "conch_vs_virchow2": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 1.60614558e-07,
+   "bonferroni_p": 1.606145584e-06,
+   "stat": 27.45714285714284,
+   "df": 1
+  },
+  "phikon_vs_hoptimus0": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 0.08864843298193,
+   "bonferroni_p": 0.886484329819298,
+   "stat": 4.846153846153847,
+   "df": 2
+  },
+  "phikon_vs_gigapath": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 0.161326611779654,
+   "bonferroni_p": 1.0,
+   "stat": 3.648648648648659,
+   "df": 2
+  },
+  "phikon_vs_virchow2": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 1.49e-13,
+   "bonferroni_p": 1.494e-12,
+   "stat": 59.06451612903179,
+   "df": 2
+  },
+  "hoptimus0_vs_gigapath": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 0.072361060945271,
+   "bonferroni_p": 0.723610609452715,
+   "stat": 5.252173913043481,
+   "df": 2
+  },
+  "hoptimus0_vs_virchow2": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 1.0166e-11,
+   "bonferroni_p": 1.01656e-10,
+   "stat": 46.29629629629628,
+   "df": 1
+  },
+  "gigapath_vs_virchow2": {
+   "test": "Stuart-Maxwell",
+   "raw_p": 3.47e-13,
+   "bonferroni_p": 3.47e-12,
+   "stat": 57.37872340425544,
+   "df": 2
+  }
+ },
+ "2class": {
+  "conch_vs_phikon": {
+   "test": "McNemar",
+   "raw_p": 1.092644517e-06,
+   "bonferroni_p": 1.092644517e-05,
+   "stat": 23.757575757575758
+  },
+  "conch_vs_hoptimus0": {
+   "test": "McNemar",
+   "raw_p": 0.000174550026703,
+   "bonferroni_p": 0.001745500267035,
+   "stat": 14.08695652173913
+  },
+  "conch_vs_gigapath": {
+   "test": "McNemar",
+   "raw_p": 4.7854839744e-05,
+   "bonferroni_p": 0.000478548397438,
+   "stat": 16.53125
+  },
+  "conch_vs_virchow2": {
+   "test": "McNemar",
+   "raw_p": 3.95885677e-07,
+   "bonferroni_p": 3.958856766e-06,
+   "stat": 25.714285714285715
+  },
+  "phikon_vs_hoptimus0": {
+   "test": "McNemar",
+   "raw_p": 0.077556166743665,
+   "bonferroni_p": 0.775561667436654,
+   "stat": 3.1153846153846154
+  },
+  "phikon_vs_gigapath": {
+   "test": "McNemar",
+   "raw_p": 0.423710797166794,
+   "bonferroni_p": 1.0,
+   "stat": 0.64
+  },
+  "phikon_vs_virchow2": {
+   "test": "McNemar",
+   "raw_p": 6.7e-14,
+   "bonferroni_p": 6.73e-13,
+   "stat": 56.145161290322584
+  },
+  "hoptimus0_vs_gigapath": {
+   "test": "McNemar",
+   "raw_p": 0.457614066876315,
+   "bonferroni_p": 1.0,
+   "stat": 0.5517241379310345
+  },
+  "hoptimus0_vs_virchow2": {
+   "test": "McNemar",
+   "raw_p": 2.5921e-11,
+   "bonferroni_p": 2.59215e-10,
+   "stat": 44.46296296296296
+  },
+  "gigapath_vs_virchow2": {
+   "test": "McNemar",
+   "raw_p": 2.062e-12,
+   "bonferroni_p": 2.0624e-11,
+   "stat": 49.42372881355932
+  }
+ }
+}

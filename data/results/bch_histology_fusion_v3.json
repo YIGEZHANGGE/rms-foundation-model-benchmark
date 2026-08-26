@@ -1,0 +1,30 @@
+{
+ "n_bch_unique": 218,
+ "n_raw_records": 219,
+ "dedup_note": "218 unique patients after removing one duplicated record (patient 1002311).",
+ "histology": {
+  "ERMS": {
+   "positive": 0,
+   "negative": 145,
+   "total": 145,
+   "fusion_positive_pct": 0.0
+  },
+  "ARMS": {
+   "positive": 48,
+   "negative": 15,
+   "total": 63,
+   "fusion_positive_pct": 76.2
+  },
+  "Spindle": {
+   "positive": 0,
+   "negative": 10,
+   "total": 10,
+   "fusion_positive_pct": 0.0
+  }
+ },
+ "totals": {
+  "positive": 48,
+  "negative": 170,
+  "total": 218
+ }
+}
