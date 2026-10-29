@@ -2,7 +2,7 @@
 
 This directory reproduces the exploratory cell-state analysis in the
 manuscript (Results: "Secondary analyses", cell-state paragraph; Supplementary Methods;
-Supplementary Fig. S10; Supplementary Tables S17-S19). It derives developmental cell-state
+Supplementary Fig. S10; Supplementary Table S17). It derives developmental cell-state
 signatures from public single-cell rhabdomyosarcoma atlases, scores them in an
 independent expression cohort, projects them onto H&E slides with a zero-shot
 transcriptome predictor, and tests their fusion and survival associations.

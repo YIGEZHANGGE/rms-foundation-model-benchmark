@@ -63,7 +63,7 @@ def main():
         json.dump(summary, f, indent=1, ensure_ascii=False)
 
     lines = [
-        "# Table S16. Architecture-ablation run-to-run stability (COG, n = 390)",
+        "# Supplementary table: architecture-ablation run-to-run stability (COG, n = 390)",
         "",
         "The architecture ablation was repeated with a different training seed (seed 42 vs seed 2026) "
         "on the same frozen cohort and the same five stratified folds, with the same training schedule. "

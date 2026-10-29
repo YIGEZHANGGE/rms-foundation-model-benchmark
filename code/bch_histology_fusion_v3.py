@@ -62,7 +62,7 @@ def main():
         json.dump(data, f, indent=1, ensure_ascii=False)
 
     lines = [
-        "# Table S15. BCH histology subtype by PAX-FOXO1 fusion status (n = 218)",
+        "# Supplementary table: BCH histology subtype by PAX-FOXO1 fusion status (n = 218)",
         "",
         "PAX-FOXO1 fusion was confined to the alveolar (ARMS) subtype: 48 of 63 ARMS cases "
         "(76.2%) were fusion-positive, whereas no ERMS (n = 145) or spindle/sclerosing (n = 10) "

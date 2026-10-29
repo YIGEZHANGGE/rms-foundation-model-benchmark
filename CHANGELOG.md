@@ -3,7 +3,7 @@
 ## 28 October 2026 — aggregate result files added
 
 Added the two aggregate files that back analyses reported after the initial release: `data/results/deferral_summary_v3.json`
-(Table S16) and `data/results/blinded_review_summary_v3.json` (Table S18). No analysis code changed;
+(Table S9) and `data/results/blinded_review_summary_v3.json` (Table S4). No analysis code changed;
 `data/results/` now holds 25 files.
 
 ## 28 October 2026 — result files reduced to those cited
