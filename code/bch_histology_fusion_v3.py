@@ -11,9 +11,9 @@ import pandas as pd
 
 CHN_XLSX = r"F:\Pathology\Pathology_patch_Normalize_quality\RMS_BCH_Pathology_updated.xlsx"
 OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-                       "outputs", "SUBMISSION_PACKAGE_v3.22b", "data", "results")
+                       "outputs", "data_snapshot", "data", "results")
 TABLE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-                         "outputs", "SUBMISSION_PACKAGE_v3.22b", "supplementary", "tables")
+                         "outputs", "data_snapshot", "supplementary", "tables")
 
 
 def main():

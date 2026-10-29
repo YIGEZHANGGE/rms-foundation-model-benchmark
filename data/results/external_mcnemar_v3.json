@@ -1,5 +1,5 @@
 {
- "meta": "BCH n=218 unique patients; classic Stuart-Maxwell (3-class, Moore-Penrose generalized inverse, df=rank for singular covariance) and McNemar with continuity correction (2-class); Bonferroni k=10. v3.12 corrected values.",
+ "meta": "BCH n=218 unique patients; classic Stuart-Maxwell (3-class, Moore-Penrose generalized inverse, df=rank for singular covariance) and McNemar with continuity correction (2-class); Bonferroni k=10. Values corrected as described in CHANGELOG.md.",
  "3class": {
   "conch_vs_phikon": {
    "test": "Stuart-Maxwell",

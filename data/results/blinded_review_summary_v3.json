@@ -1,0 +1,21 @@
+{
+  "design": {
+    "cases": 50,
+    "groups": {
+      "spindle_all": 10,
+      "model_discordant": 20,
+      "concordant_controls": 20
+    },
+    "reviewers": 2,
+    "blinding": "model output and original report withheld"
+  },
+  "result": {
+    "reviewer1_vs_record": "50/50",
+    "reviewer2_vs_record": "50/50",
+    "inter_reviewer": "50/50",
+    "class_changes": 0,
+    "kappa": "1.00 by construction; no disagreement from which to estimate reliability"
+  },
+  "scope": "enriched for the classes most likely to be mislabelled; 168 of 218 external patients were not re-reviewed",
+  "summary": "Blinded reference-standard re-review (Supplementary Table S26). Both pathologists assigned the institutional class to all 50 cases and agreed with each other on all 50."
+}

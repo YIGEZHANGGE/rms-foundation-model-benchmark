@@ -16,8 +16,8 @@ ab = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(ab)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ab.OUT_DIR = os.path.join(ROOT, "outputs", "SUBMISSION_PACKAGE_v3.22b", "data", "results")
-ab.COHORT_PATH = os.path.join(ROOT, "outputs", "SUBMISSION_PACKAGE_v3.22b", "data", "cohort_and_folds_public.json")
+ab.OUT_DIR = os.path.join(ROOT, "outputs", "data_snapshot", "data", "results")
+ab.COHORT_PATH = os.path.join(ROOT, "outputs", "data_snapshot", "data", "cohort_and_folds_public.json")
 ab.SEED = 2026
 ab.MAX_PATCHES = 4096
 ab.ENCODERS = {

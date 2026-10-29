@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-RES_DIR = os.path.join(ROOT, "outputs", "SUBMISSION_PACKAGE_v3.22b", "data", "results")
-TAB_DIR = os.path.join(ROOT, "outputs", "SUBMISSION_PACKAGE_v3.22b", "supplementary", "tables")
+RES_DIR = os.path.join(ROOT, "outputs", "data_snapshot", "data", "results")
+TAB_DIR = os.path.join(ROOT, "outputs", "data_snapshot", "supplementary", "tables")
 RUN1 = os.path.join(RES_DIR, "architecture_ablation_v3.json")
 RUN2 = os.path.join(RES_DIR, "architecture_ablation_v3_run2.json")
 

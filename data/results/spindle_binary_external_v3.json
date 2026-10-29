@@ -1,0 +1,86 @@
+{
+  "plain": {
+    "folds": [
+      {
+        "fold": 1,
+        "internal_auroc": 0.9448275862068964,
+        "internal_recall": 0.0
+      },
+      {
+        "fold": 2,
+        "internal_auroc": 0.7172413793103448,
+        "internal_recall": 0.0
+      },
+      {
+        "fold": 3,
+        "internal_auroc": 0.9533898305084746,
+        "internal_recall": 0.25
+      },
+      {
+        "fold": 4,
+        "internal_auroc": 0.5169491525423728,
+        "internal_recall": 0.0
+      },
+      {
+        "fold": 5,
+        "internal_auroc": 0.8189655172413794,
+        "internal_recall": 0.0
+      }
+    ],
+    "ensemble_bch": {
+      "tag": "plain_ensemble_BCH",
+      "n": 155,
+      "n_spindle": 10,
+      "accuracy": 0.9354838709677419,
+      "macro_f1": 0.48333333333333334,
+      "spindle_recall": 0.0,
+      "n_predicted_spindle": 0,
+      "auroc": 0.8524137931034482,
+      "auprc": 0.22714386866749448,
+      "recall_at_90pct_specificity": 0.5
+    },
+    "mean_internal_auroc": 0.7902746931618936
+  },
+  "oversample_x5": {
+    "folds": [
+      {
+        "fold": 1,
+        "internal_auroc": 0.7793103448275862,
+        "internal_recall": 0.6
+      },
+      {
+        "fold": 2,
+        "internal_auroc": 0.6758620689655173,
+        "internal_recall": 0.2
+      },
+      {
+        "fold": 3,
+        "internal_auroc": 0.7245762711864407,
+        "internal_recall": 0.5
+      },
+      {
+        "fold": 4,
+        "internal_auroc": 0.6398305084745762,
+        "internal_recall": 0.25
+      },
+      {
+        "fold": 5,
+        "internal_auroc": 0.8879310344827587,
+        "internal_recall": 0.5
+      }
+    ],
+    "ensemble_bch": {
+      "tag": "oversample_x5_ensemble_BCH",
+      "n": 155,
+      "n_spindle": 10,
+      "accuracy": 0.9290322580645162,
+      "macro_f1": 0.4816053511705686,
+      "spindle_recall": 0.0,
+      "n_predicted_spindle": 1,
+      "auroc": 0.8882758620689655,
+      "auprc": 0.2927902644840541,
+      "recall_at_90pct_specificity": 0.4
+    },
+    "mean_internal_auroc": 0.7415020455873759
+  }
+}

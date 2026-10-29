@@ -1,0 +1,36 @@
+{
+ "n_patients": 218,
+ "by_specimen": {
+  "puncture": {
+   "n": 95,
+   "median_nuclear_density": 0.084,
+   "median_white_space": 0.63
+  },
+  "biopsy": {
+   "n": 123,
+   "median_nuclear_density": 0.181,
+   "median_white_space": 0.31
+  }
+ },
+ "by_correctness_CONCH": {
+  "correct": {
+   "n": 175,
+   "median_nuclear_density": 0.126,
+   "median_white_space": 0.46
+  },
+  "incorrect": {
+   "n": 43,
+   "median_nuclear_density": 0.137,
+   "median_white_space": 0.37
+  }
+ },
+ "mann_whitney": {
+  "nuclear_density_p": 0.267,
+  "white_space_p": 0.126
+ },
+ "spindle_subgroup": {
+  "n": 10,
+  "median_nuclear_density": 0.171
+ },
+ "definitions": "25 random 512-px patches per slide (seed 0); nuclear density = mean haematoxylin optical density; white space = fraction of pixels with mean RGB > 0.85; patient value = median across patches; specimen 0 = puncture, 1 = biopsy."
+}

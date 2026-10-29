@@ -1,7 +1,7 @@
 {
  "n_encoders": 5,
  "k": 10,
- "note": "v3.12 corrected: classic Stuart-Maxwell with generalized inverse; values match Table S4.",
+ "note": "Corrected (see CHANGELOG.md): classic Stuart-Maxwell with generalized inverse; values match Table S4.",
  "mcnemar_3class_stuart_maxwell": {
   "conch_vs_phikon": {
    "raw_p": 0.38206590382183,

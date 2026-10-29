@@ -1,0 +1,4 @@
+a,n_a,mean_a,b,n_b,mean_b,mean_diff,bootstrap_95CI,MW_p,cohen_d,test
+ARMS,76,0.633,ERMS+Spindle,314,0.652,-0.019,"[-0.040, 0.002]",0.1259,-0.229,T1 (COG histology)
+fusion+,48,0.584,fusion-,170,0.597,-0.013,"[-0.039, 0.013]",0.2747,-0.158,T2 (BCH fusion)
+ARMS,63,0.584,ERMS+Spindle,155,0.598,-0.014,"[-0.038, 0.011]",0.18,-0.168,T3 (BCH histology)

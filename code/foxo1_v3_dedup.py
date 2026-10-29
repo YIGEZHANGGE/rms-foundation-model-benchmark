@@ -66,7 +66,9 @@ def load_chn():
     fusion_col = [c for c in chn.columns if "融合" in str(c)][0]
     chn["pid_str"] = chn["编号"].astype(int).astype(str).str.zfill(7)
     chn["foxo1"] = chn[fusion_col].map({1.0: 1, 2.0: 0}).fillna(-1).astype(int)
-    return chn[chn["foxo1"] >= 0]
+    out = chn[chn["foxo1"] >= 0].copy()
+    out = out.drop_duplicates("pid_str", keep="first")   # 1002311 在 Excel 中重复且标签一致
+    return out
 
 
 def train_fold(tr_pids, tr_lbl, va_pids, va_lbl, feat_files, dim, seed):
@@ -198,10 +200,10 @@ def main():
         }
         all_results[enc] = res
         pd.DataFrame({"patient_id": pids, "true": fold_trues, "prob": fold_probs}).to_csv(
-            os.path.join(OUT_DIR, f"foxo1_probs_v3_{enc}.csv"), index=False)
+            os.path.join(OUT_DIR, f"foxo1_probs_v3_dedup_{enc}.csv"), index=False)
         print(json.dumps(res, indent=2, ensure_ascii=False))
 
-    with open(os.path.join(OUT_DIR, "foxo1_results_v3.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(OUT_DIR, "foxo1_results_v3_dedup.json"), "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
     print("=== FOXO1 V3 DONE ===")
 
